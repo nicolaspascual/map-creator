@@ -4,7 +4,7 @@
   "description": "A skeleton for ES6 front end applications with webpack, babel and ESlint",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config prod.webpack.config.js -p --fix",
+    "build": "webpack --config prod.webpack.config.js -p",
     "postbuild": "cp index.html ./dist/index.html",
     "start": "webpack-dev-server",
     "test": "webpack"
