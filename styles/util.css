@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+:root {
+    --color1: rgba(31, 39, 27, 1);
+    --color2: rgba(240, 162, 2, 1);
+    --color3: #FFCBDD;
+    --color4: rgba(217, 93, 57, 1);
+    --color5: rgba(123, 158, 137, 1);
+    --main-color: var(--color5);
+    --secondary-color: var(--color3);
+    --text-color: var(--color1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlap {
+    position: absolute;
+    z-index: 10;
+}
+
+.top {
+    top: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    padding: 5px;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+}
